@@ -17,6 +17,22 @@ const faqs = [
     question: "Are the courses beginner-friendly?",
     answer: "Absolutely! We have content for all levels, from beginner to advanced. You can filter by difficulty.",
   },
+  {
+    question: "How do I access the live workshops?",
+    answer: "Live workshops are available exclusively for Pro Plan subscribers. You can join them through your dashboard.",
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer: "We accept all major credit cards, PayPal, and bank transfers. You can choose your preferred method at checkout.",
+  },
+  {
+    question: "Is there a money-back guarantee?",
+    answer: "Yes, we offer a 30-day money-back guarantee for all Pro Plan subscriptions. If you’re not satisfied, just contact our support team.",
+  },
+  {
+    question: "How can I contact support?",
+    answer: "You can reach our support team via email at support@skillbridge.com",
+  },
 ];
 
 const FAQ = () => {
@@ -27,10 +43,10 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-16 bg-white">
-      <div className="text-center mb-10">
-        <h3 className="text-2xl font-bold">Frequently Asked Questions</h3>
-        <p className="text-gray-600 mt-2">Everything you need to know before you start learning</p>
+    <section className="grid md:grid-cols-2 gap-8 px-6 max-w-5xl mx-auto py-16 bg-white">
+      <div className="mb-10">
+        <h3 className="text-2xl w-4/5 font-bold">Frequently Asked Questions</h3>
+        <p className="text-gray-600 mt-2">Still you have any questions? Contact our Team via support@skillbridge.com</p>
       </div>
       <div className="max-w-3xl mx-auto px-6 space-y-4">
         {faqs.map((faq, index) => (

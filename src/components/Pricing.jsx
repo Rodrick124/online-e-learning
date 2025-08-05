@@ -7,9 +7,11 @@ const pricingPlans = [
     price: '$0',
     period: '/month',
     features: [
-      'Access limited courses',
-      'Basic support',
-      'View video content',
+      'Access to selected free courses.',
+      'Limited course materials and resources',
+      'Basic community support',
+      'No certificate upon completion',
+      'Ad-supported platform.',
     ],
     buttonText: 'Get Started',
     highlighted: false,
@@ -21,10 +23,13 @@ const pricingPlans = [
     period: '/month',
     features: [
       'Unlimited course access',
-      'Priority support',
-      'Downloadable materials',
+      'Priority support from instructors',
+      'Unlimited downloadable materials',
       'Certificate of completion',
       'Join live workshops',
+      'Ad-free platform.',
+      'Access to exclusive Pro Plan community forums.',
+      'Early access to new courses and updates.',
     ],
     buttonText: 'Upgrade',
     highlighted: true,
@@ -45,15 +50,16 @@ const Pricing = () => (
             plan.highlighted ? 'bg-white border-orange-500 shadow-lg' : 'bg-white'
           }`}
         >
-          <h4 className="text-lg font-bold mb-2">{plan.title}</h4>
-          <div className="text-3xl font-extrabold text-orange-500">
+          <h4 className="text-lg font-bold text-center mb-2">{plan.title}</h4>
+          <div className="text-3xl text-center mb-4 font-extrabold text-orange-500">
             {plan.price}
-            <span className="text-base font-medium text-gray-600">{plan.period}</span>
+            <span className="text-sm font-normal text-gray-600">{plan.period}</span>
           </div>
+          <h4 className="text-sm font-bold text-center mb-4">Available Features</h4>
           <ul className="mt-4 space-y-2 text-sm text-gray-700">
             {plan.features.map((feature, idx) => (
-              <li key={idx} className="flex items-center">
-                ✅ <span className="ml-2">{feature}</span>
+              <li key={idx} className="flex items-center p-2 border border-gray-50">
+                <img src="/images/tick.svg" alt="check image" className="w-5 h-5 bg-orange-100" /> <span className="ml-2">{feature}</span>
               </li>
             ))}
           </ul>
