@@ -1,15 +1,18 @@
-import React from 'react';
+
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="flex justify-between items-center px-32 py-16 bg-white shadow-md">
     <div className="flex items-center space-x-8">
-      <img src="/images/logo.svg" alt="Logo" className="h-8 w-auto bg-orange-600 rounded p-2 w-16 h-16" />
+      <Link to="/">
+        <img src="/images/logo.svg" alt="Logo" className="h-8 w-auto bg-orange-600 rounded p-2 w-16 h-16" />
+      </Link>
       <ul className="flex space-x-4 text-lg font-semibold">
-        <li>Home</li>
-        <li>Courses</li>
-        <li>Testimonials</li>
-        <li>Pricing</li>
-        <li>FAQ</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/courses">Courses</Link></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
       </ul>
     </div>
     <div>
