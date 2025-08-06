@@ -1,0 +1,351 @@
+
+
+[
+  {
+  "id": 1,
+  "title": "Web Design Fundamentals",
+  "author": "By John Smith",
+  "category": "Design",
+  "level": "Beginner",
+  "duration": "4h 30m",
+  "image": "/images/web design.png",
+  "description": "Learn the basics of web design, including layout, color theory, and typography.",
+  "curriculum": [
+    {
+      "title": "Introduction to Web Design",
+      "description": "Overview of web design and its importance in modern websites.",
+      "duration": "45m",
+      "subtopics": [
+        { "title": "What is Web Design?", "duration": "10m" },
+        { "title": "Web Design vs Web Development", "duration": "8m" },
+        { "title": "Tools of the Trade", "duration": "7m" },
+        { "title": "Importance of UX", "duration": "10m" },
+        { "title": "Basic Design Process", "duration": "10m" }
+      ]
+    },
+    {
+      "title": "Understanding Layouts",
+      "description": "Learn how to structure content effectively using layout principles like grids and spacing.",
+      "duration": "1h 10m",
+      "subtopics": [
+        { "title": "Introduction to Layouts", "duration": "10m" },
+        { "title": "Grid Systems", "duration": "15m" },
+        { "title": "Flexbox and CSS Grids", "duration": "20m" },
+        { "title": "White Space Usage", "duration": "15m" },
+        { "title": "Responsive Layouts", "duration": "10m" }
+      ]
+    },
+    {
+      "title": "Color Theory Basics",
+      "description": "Discover how to use color schemes, contrasts, and palettes to enhance visual appeal.",
+      "duration": "1h",
+      "subtopics": [
+        { "title": "Understanding Color Wheel", "duration": "15m" },
+        { "title": "Complementary Colors", "duration": "10m" },
+        { "title": "Color Psychology", "duration": "10m" },
+        { "title": "Creating Color Palettes", "duration": "15m" },
+        { "title": "Accessibility & Contrast", "duration": "10m" }
+      ]
+    },
+    {
+      "title": "Typography in Web Design",
+      "description": "Explore the role of fonts, hierarchy, and readability in user-centered design.",
+      "duration": "1h 35m",
+      "subtopics": [
+        { "title": "Typography Basics", "duration": "15m" },
+        { "title": "Font Pairing", "duration": "20m" },
+        { "title": "Responsive Typography", "duration": "20m" },
+        { "title": "Web Safe Fonts", "duration": "15m" },
+        { "title": "Hierarchy and Readability", "duration": "25m" }
+      ]
+    }
+  ],
+  "totalDuration": "4h 30m"
+},
+  {
+  "id": 2,
+  "title": "UI/UX Basics",
+  "author": "By Emily Johnson",
+  "category": "UI/UX",
+  "level": "Intermediate",
+  "duration": "3h 15m",
+  "image": "/images/UiUx.png",
+  "description": "Understand user interface and user experience design principles to create intuitive applications.",
+  "curriculum": [
+    {
+      "title": "Introduction to UI/UX",
+      "description": "Learn the difference between UI and UX and why both are critical to product success.",
+      "duration": "40m",
+      "subtopics": [
+        { "title": "What is UI?", "duration": "10m" },
+        { "title": "What is UX?", "duration": "10m" },
+        { "title": "UI vs UX", "duration": "5m" },
+        { "title": "Design Thinking", "duration": "10m" },
+        { "title": "Role of a Designer", "duration": "5m" }
+      ]
+    },
+    {
+      "title": "User Research Techniques",
+      "description": "Gain insights into user needs through surveys, interviews, and usability testing.",
+      "duration": "50m",
+      "subtopics": [
+        { "title": "Why User Research?", "duration": "10m" },
+        { "title": "Surveys and Forms", "duration": "10m" },
+        { "title": "User Interviews", "duration": "10m" },
+        { "title": "Personas & Journey Maps", "duration": "10m" },
+        { "title": "Analyzing Research", "duration": "10m" }
+      ]
+    },
+    {
+      "title": "Wireframing and Prototyping",
+      "description": "Create wireframes and interactive prototypes to visualize your designs.",
+      "duration": "55m",
+      "subtopics": [
+        { "title": "Sketching Ideas", "duration": "10m" },
+        { "title": "Low-Fidelity Wireframes", "duration": "10m" },
+        { "title": "High-Fidelity Prototypes", "duration": "15m" },
+        { "title": "Tools (Figma, XD)", "duration": "10m" },
+        { "title": "Feedback Loops", "duration": "10m" }
+      ]
+    },
+    {
+      "title": "Usability Testing",
+      "description": "Understand how to test designs with users and iterate based on feedback.",
+      "duration": "50m",
+      "subtopics": [
+        { "title": "Why Test Usability?", "duration": "10m" },
+        { "title": "Setting Up Tests", "duration": "10m" },
+        { "title": "A/B Testing", "duration": "10m" },
+        { "title": "User Session Recording", "duration": "10m" },
+        { "title": "Interpreting Results", "duration": "10m" }
+      ]
+    }
+  ],
+  "totalDuration": "3h 15m"
+}
+,
+  {
+  "id": 3,
+  "title": "Mobile App Development",
+  "author": "By Michael Brown",
+  "category": "Mobile",
+  "level": "Intermediate",
+  "duration": "5h 10m",
+  "image": "/images/mobile app.png",
+  "description": "Build your first mobile application using React Native, covering both Android and iOS platforms.",
+  "curriculum": [
+    {
+      "title": "Setting Up React Native",
+      "description": "Install and configure your environment to start building mobile apps with React Native.",
+      "duration": "1h",
+      "subtopics": [
+        { "title": "Installing Node.js and npm", "duration": "10m" },
+        { "title": "Setting up Expo CLI", "duration": "10m" },
+        { "title": "Android/iOS Emulator Setup", "duration": "15m" },
+        { "title": "Creating Your First Project", "duration": "15m" },
+        { "title": "Project Folder Structure", "duration": "10m" }
+      ]
+    },
+    {
+      "title": "Building User Interfaces",
+      "description": "Learn to create visually engaging and responsive interfaces using built-in components.",
+      "duration": "1h 20m",
+      "subtopics": [
+        { "title": "Core Components Overview", "duration": "15m" },
+        { "title": "Styling with StyleSheet", "duration": "15m" },
+        { "title": "Layouts using Flexbox", "duration": "20m" },
+        { "title": "Touchable Elements", "duration": "15m" },
+        { "title": "Icons and Images", "duration": "15m" }
+      ]
+    },
+    {
+      "title": "Integrating APIs",
+      "description": "Fetch and handle data using RESTful APIs inside your mobile apps.",
+      "duration": "1h 10m",
+      "subtopics": [
+        { "title": "Introduction to REST APIs", "duration": "10m" },
+        { "title": "Fetching Data with fetch()", "duration": "15m" },
+        { "title": "Using Axios", "duration": "15m" },
+        { "title": "Displaying API Data", "duration": "15m" },
+        { "title": "Error Handling and Loading States", "duration": "15m" }
+      ]
+    },
+    {
+      "title": "Testing and Debugging",
+      "description": "Ensure your app works as intended through various debugging and testing strategies.",
+      "duration": "1h 40m",
+      "subtopics": [
+        { "title": "Debugging with Chrome DevTools", "duration": "20m" },
+        { "title": "Using React Native Debugger", "duration": "20m" },
+        { "title": "Testing on Real Devices", "duration": "20m" },
+        { "title": "Unit Testing Basics", "duration": "20m" },
+        { "title": "Common Errors and Fixes", "duration": "20m" }
+      ]
+    }
+  ],
+  "totalDuration": "5h 10m"
+}
+,
+  {
+  "id": 4,
+  "title": "Graphic Design for Beginners",
+  "author": "By Rachel Lee",
+  "category": "Design",
+  "level": "Beginner",
+  "duration": "2h 45m",
+  "image": "/images/graphic design.png",
+  "description": "Explore the fundamentals of graphic design, including tools and techniques for creating stunning visuals.",
+  "curriculum": [
+    {
+      "title": "Introduction to Graphic Design",
+      "description": "Understand what graphic design is and how it impacts communication and branding.",
+      "duration": "35m",
+      "subtopics": [
+        { "title": "What is Graphic Design?", "duration": "7m" },
+        { "title": "Brief History of Design", "duration": "7m" },
+        { "title": "Key Design Disciplines", "duration": "7m" },
+        { "title": "Design Principles Overview", "duration": "7m" },
+        { "title": "Design Careers", "duration": "7m" }
+      ]
+    },
+    {
+      "title": "Design Tools Overview",
+      "description": "Get familiar with the top graphic design software used by professionals.",
+      "duration": "40m",
+      "subtopics": [
+        { "title": "Adobe Photoshop Basics", "duration": "10m" },
+        { "title": "Adobe Illustrator Basics", "duration": "10m" },
+        { "title": "Canva & Online Tools", "duration": "5m" },
+        { "title": "File Formats and Exporting", "duration": "10m" },
+        { "title": "Tips for Choosing Tools", "duration": "5m" }
+      ]
+    },
+    {
+      "title": "Color Theory Basics",
+      "description": "Explore the principles of color and how to use them in visual compositions.",
+      "duration": "45m",
+      "subtopics": [
+        { "title": "Color Wheel Fundamentals", "duration": "10m" },
+        { "title": "Primary & Secondary Colors", "duration": "10m" },
+        { "title": "Color Harmony", "duration": "10m" },
+        { "title": "Psychology of Color", "duration": "10m" },
+        { "title": "Contrast and Accessibility", "duration": "5m" }
+      ]
+    },
+    {
+      "title": "Typography in Graphic Design",
+      "description": "Learn how to use fonts creatively and effectively in design work.",
+      "duration": "45m",
+      "subtopics": [
+        { "title": "Type Anatomy", "duration": "10m" },
+        { "title": "Font Categories", "duration": "10m" },
+        { "title": "Font Pairing Techniques", "duration": "10m" },
+        { "title": "Hierarchy and Spacing", "duration": "10m" },
+        { "title": "Legibility Best Practices", "duration": "5m" }
+      ]
+    }
+  ],
+  "totalDuration": "2h 45m"
+}
+,
+  {
+  "id": 5,
+  "title": "Front-End Web Development",
+  "author": "By David Adams",
+  "category": "Frontend",
+  "level": "Intermediate",
+  "duration": "6h 00m",
+  "image": "/images/frontend.png",
+  "description": "Dive into HTML, CSS, and JavaScript to build responsive and interactive web pages.",
+  "curriculum": [
+    {
+      "title": "HTML Basics",
+      "description": "Build the structure of web pages using semantic HTML elements.",
+      "duration": "1h 30m",
+      "subtopics": [
+        { "title": "HTML Syntax and Tags", "duration": "20m" },
+        { "title": "Lists, Links & Images", "duration": "20m" },
+        { "title": "Forms and Inputs", "duration": "20m" },
+        { "title": "Semantic Elements", "duration": "15m" },
+        { "title": "Accessibility Tags", "duration": "15m" }
+      ]
+    },
+    {
+      "title": "CSS Styling Techniques",
+      "description": "Style web pages using CSS with layouts, animations, and media queries.",
+      "duration": "2h",
+      "subtopics": [
+        { "title": "CSS Selectors and Properties", "duration": "25m" },
+        { "title": "Box Model and Positioning", "duration": "25m" },
+        { "title": "Flexbox and Grid", "duration": "30m" },
+        { "title": "Responsive Design", "duration": "20m" },
+        { "title": "Transitions and Animations", "duration": "20m" }
+      ]
+    },
+    {
+      "title": "JavaScript Fundamentals",
+      "description": "Add interactivity with core JavaScript programming techniques.",
+      "duration": "2h 30m",
+      "subtopics": [
+        { "title": "Variables and Data Types", "duration": "25m" },
+        { "title": "Functions and Scope", "duration": "30m" },
+        { "title": "DOM Manipulation", "duration": "30m" },
+        { "title": "Events and Event Listeners", "duration": "30m" },
+        { "title": "Form Validation", "duration": "35m" }
+      ]
+    }
+  ],
+  "totalDuration": "6h 00m"
+}
+,
+  {
+  "id": 6,
+  "title": "Advanced JavaScript",
+  "author": "By Jennifer Wilson",
+  "category": "JavaScript",
+  "level": "Advanced",
+  "duration": "7h 20m",
+  "image": "/images/ad javascript.png",
+  "description": "Master advanced JavaScript concepts, including ES6 features, asynchronous programming, and more.",
+  "curriculum": [
+    {
+      "title": "Understanding ES6 Features",
+      "description": "Explore modern ES6+ syntax and best practices in writing efficient code.",
+      "duration": "2h",
+      "subtopics": [
+        { "title": "let, const vs var", "duration": "25m" },
+        { "title": "Arrow Functions", "duration": "20m" },
+        { "title": "Template Literals", "duration": "15m" },
+        { "title": "Destructuring and Spread", "duration": "30m" },
+        { "title": "Modules and Imports", "duration": "30m" }
+      ]
+    },
+    {
+      "title": "Asynchronous JavaScript",
+      "description": "Learn how to handle asynchronous behavior with callbacks, promises, and async/await.",
+      "duration": "2h 30m",
+      "subtopics": [
+        { "title": "Callbacks and Callback Hell", "duration": "30m" },
+        { "title": "Promises: then & catch", "duration": "30m" },
+        { "title": "Async/Await Syntax", "duration": "30m" },
+        { "title": "Fetch API & Async Ops", "duration": "30m" },
+        { "title": "Error Handling in Async Code", "duration": "30m" }
+      ]
+    },
+    {
+      "title": "Error Handling in JavaScript",
+      "description": "Handle runtime errors gracefully using try/catch and defensive coding.",
+      "duration": "2h 50m",
+      "subtopics": [
+        { "title": "Types of Errors", "duration": "30m" },
+        { "title": "Try/Catch Blocks", "duration": "30m" },
+        { "title": "Throwing Custom Errors", "duration": "30m" },
+        { "title": "Debugging with DevTools", "duration": "40m" },
+        { "title": "Best Practices for Stability", "duration": "40m" }
+      ]
+    }
+  ],
+  "totalDuration": "7h 20m"
+}
+
+]
