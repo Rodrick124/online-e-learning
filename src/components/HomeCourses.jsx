@@ -67,10 +67,15 @@ const courses = [
 const HomeCourses = () => {
   const navigate = useNavigate();
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="mb-10">
-        <h3 className="text-2xl font-bold">Featured Courses</h3>
-        <p className="text-gray-600 mt-2">Check out some of our top courses</p>
+    <section className="py-16 bg-gray-50 px-40">
+      <div className="mb-10"> 
+          <h3 className="text-2xl font-bold">Our Courses</h3>
+          <div className='flex justify-between items-center'>
+            <p className="text-gray-600 mt-2">Check out some of our top courses</p>
+            <button className="text-white text-sm border px-6 py-2 rounded hover:bg-orange-300" onClick={() => navigate('/courses')}>
+              View All
+            </button>
+          </div>
       </div>
       <div className="grid md:grid-cols-3 gap-6">
         {courses.slice(0, 3).map(course => (
@@ -88,17 +93,12 @@ const HomeCourses = () => {
               <p className="text-sm text-gray-500">{course.description}</p>
             </div>
             <div className="p-4">
-              <button className="bg-blue-500 text-white py-2 px-4 rounded w-full" onClick={() => navigate(`/courses/${course.id}`)}>
+              <button className="bg-gray-100 text-white py-2 px-4 rounded w-full hover:bg-orange-300" onClick={() => navigate(`/courses/${course.id}`)}>
                 View Details
               </button>
             </div>
           </div>
         ))}
-      </div>
-      <div className="mt-8 text-center">
-        <button className="bg-orange-500 text-white px-6 py-2 rounded" onClick={() => navigate('/courses')}>
-          View All Courses
-        </button>
       </div>
     </section>
   );
