@@ -10,9 +10,9 @@ const Navbar = () => (
       <ul className="flex space-x-4 text-lg font-semibold">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/courses">Courses</Link></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#faq">FAQ</a></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="#pricing">Pricing</Link></li>
+        <li><Link to="#faq">Contact</Link></li>
       </ul>
     </div>
     <div>
