@@ -13,6 +13,7 @@ import CoursesPage from './pages/courses';
 import CourseDetail from './pages/CourseDetail';
 import HomeCourses from './components/HomeCourses';
 import About from './pages/about';
+import Contact from './pages/contact';
 
 // Main App component
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/courses" element={<CoursesPage />} />
         <Route path="/courses/:id" element={<CourseDetail />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
