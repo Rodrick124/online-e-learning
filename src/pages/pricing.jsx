@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import FAQ from '../components/FAQs';
 
 const pricingPlans = [
   {
@@ -57,12 +58,19 @@ const Pricingspage = () => {
 
   return (
     <section className="py-16 bg-gray-50 px-4 md:px-40">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">Choose Your Plan</h2>
-        <p className="text-gray-600">Select the perfect plan for your learning journey</p>
+      <div className="flex justify-between items-center mb-12">
+        <h2 className="text-4xl font-bold mb-4">Our Pricing</h2>
+        <p className="w-6/12 text-sm text-gray-600">
+            Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater to your needs: Free and Pro. We believe in providing flexible and affordable pricing options for our services. Whether you're an individual looking to enhance your skills or a business seeking professional development solutions, we have a plan that suits you. Explore our pricing options below and choose the one that best fits your requirements.
+        </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className='flex justify-center space-x-4 m-28'>
+        <button className='px-4 py-2 bg-blue-500 text-white rounded'>Monthly</button>
+        <button className='px-4 py-2 bg-gray-200 text-gray-800 rounded'>Yearly</button>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-8 my-16">
         {pricingPlans.map((plan) => (
           <div
             key={plan.id}
@@ -110,6 +118,7 @@ const Pricingspage = () => {
           </div>
         ))}
       </div>
+        <FAQ />
     </section>
   );
 };
