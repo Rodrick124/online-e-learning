@@ -14,6 +14,9 @@ import CourseDetail from './pages/CourseDetail';
 import HomeCourses from './components/HomeCourses';
 import About from './pages/about';
 import Contact from './pages/contact';
+import Pricingpage from './pages/pricing';
+import SignupPage from './pages/signup';
+import LoginPage from './pages/login';
 
 // Main App component
 
@@ -52,6 +55,9 @@ function App() {
         <Route path="/courses/:id" element={<CourseDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/pricing" element={<Pricingpage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
