@@ -30,12 +30,30 @@ const LoginPage = () => {
 
   return (
     <section className="py-16 bg-gray-50 px-4 md:px-40 min-h-screen">
-      <div className="mx-auto bg-white rounded-lg shadow-md p-8 flex justify-between items-center">
-        <div className='w-6/12 bg-white'>
-            <h2 className="text-3xl font-bold mb-2">Studients Testimonials</h2>
-            <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
+      <div className="mx-auto rounded-lg p-8 flex justify-between items-center">
+        <div className='w-6/12 bg-white p-8 rounded-lg shadow-md'>
+            <div>
+                <h2 className="text-3xl font-bold mb-2">Students Testimonials</h2>
+                <p className='text-sm text-gray-600'>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
+            </div>
+            <div className='m-8 flex flex-col gap-8'>
+                <p className='text-sm text-gray-600'>
+                   The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it! 
+                </p>
+                <div className='flex items-center justify-between'>
+                    <div className='flex items-center gap-4'>
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="profile image" className='w-12 h-12 rounded'/>
+                        <p className='text-sm'>Sarah L.</p>
+                    </div>
+                    <button className='bg-gray-200 p-2 rounded'>Read More</button>
+                </div>
+                <div className='flex gap-4 justify-end'>
+                    <img src="/images/arrow1.svg" alt="arrow" className='w-10 h-10 bg-gray-100 hover:bg-gray-200'/>
+                    <img src="/images/arror2.svg" alt="arrow" className='w-10 h-10 bg-gray-100 hover:bg-gray-200'/>
+                </div>
+            </div>
         </div>
-        <div>
+        <div className='bg-white rounded-lg shadow-md p-8'>
             <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-2">Login</h2>
             <p className="text-gray-600 text-sm">Welcome back! Please log in to access your account.</p>
