@@ -17,6 +17,7 @@ import Contact from './pages/contact';
 import Pricingpage from './pages/pricing';
 import SignupPage from './pages/signup';
 import LoginPage from './pages/login';
+import NotFound from './pages/notfound';
 
 // Main App component
 
@@ -58,6 +59,7 @@ function App() {
         <Route path="/pricing" element={<Pricingpage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
